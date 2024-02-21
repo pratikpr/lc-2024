@@ -11,7 +11,6 @@ def productExceptSelf(nums):
     for i in range(len(nums)):
         result[i] *= product_prefix
         product_prefix *= nums[i]
-    print(result)
         
     product_prefix = 1
     for i in range(len(nums)-1, -1, -1):
