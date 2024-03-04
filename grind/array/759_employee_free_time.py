@@ -35,4 +35,3 @@ class Solution:
             free.append(Interval(start=merged[i-1].end, end=merged[i].start))
         return free
         
-        
